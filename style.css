@@ -92,45 +92,24 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-@keyframes slideInOut {
-    0% {
-        transform: translateX(100%); /* Start off-screen to the right */
-    }
-    25%, 75% {
-        transform: translateX(0); /* Slide in to the normal position */
-    }
-    100% {
-        transform: translateX(100%); /* Slide back off-screen to the right */
-    }
+.btn-skill:hover{
+   background-color: #a2214a;
 }
+
+
+
+
+
+.container {
+    overflow: hidden; /* Clip any overflow content */
+}
+
+
 
 .about-col-2 {
     flex-basis: 60%;
-    animation-name: slideInOut;
-    animation-duration: 6s; /* Total duration for slide in and out */
-    animation-timing-function: ease-in-out; /* Smooth start and end */
-    animation-iteration-count: infinite; /* Repeat infinitely */
-    animation-direction: alternate; /* Alternate direction (slide in and out) */
-    animation-fill-mode: both;
-
-    transform: translateX(100%); /* Initial position off-screen to the right */
-    transition: transform 0.5s ease-out; /* Smooth transition when sliding in/out */
-}   
-.about-col-2.slide-in {
-    transform: translateX(0); /* Slide in when this class is added */
+    /* Animation details */
 }
-
-
 
 
 
@@ -310,22 +289,23 @@ nav ul li a:hover::after{
 
 }
         
-.contact-right form{ 
+.contact-right{ 
     width: 100%;
 
 }
-form input, form textarea{
+.hh{
     width: 100%;
     border: 0;
+
     outline: none;
     background: #262626;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
     border-radius: 6px;
 }
-form .btn2{
+.form .btn2{
     padding: 14px 60px;
     font-size: 16px;
     margin-top: 20px;
@@ -341,6 +321,7 @@ form .btn2{
 }
 .copyright i{
     color: #ff004f;
+    font-family:;
 
 }
 .copyright span{
